@@ -4,6 +4,7 @@ run ways
 1. IDEA configuration on greeter module and "Program arguments"
 2. IDEA run as gradle application and task "run --args='tttt'"
 3. Distribution plugin 'assembleDist' and
-#rm -rf greeter-1.0/
-#tar -xvf greeter/build/distributions/greeter-1.0.tar
-#sh greeter-1.0/bin/greeter tttt
+#rm -rf distribution/
+#mkdir distribution
+#tar -xvf greeter/build/distributions/greeter-1.0.tar -C distribution
+#sh distribution/greeter-1.0/bin/greeter tttt
